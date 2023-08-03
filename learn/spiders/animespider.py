@@ -11,7 +11,7 @@ class AnimespiderSpider(scrapy.Spider):
         current_url = response.url
 
         # Stop the crawl when the desired URL is reached
-        if "limit=100" in current_url:
+        if "limit=15000" in current_url:
             return
 
         # Parse the anime details on the current page

@@ -21,6 +21,10 @@ ROBOTSTXT_OBEY = True
 
 LOG_ENABLED = True
 
+FEEDS = {
+    'AnimeData.json': { 'format': 'json' },
+}
+
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
